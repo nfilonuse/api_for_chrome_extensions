@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed');
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+.clear{ clear:both;}
+
+html {
+        background: url(../img/background-home.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		height:100%;
+}
+body{padding: 0;  height: 100%; position: relative; margin:0;  -webkit-font-smoothing: antialiased; font-family: 'Fira Sans Condensed', sans-serif; color:#000; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+.container{display: flex; flex-direction: column; height: 100%;}
+.wrapper{ flex: 1 0 auto;}
+
+.header{ height:59px; width:100%; position:relative; background-color:rgba(64, 64, 64, 0.8); }
+	.header .logo{ float:left; padding:12px 0 0 12px;}
+		.header .logo a{ display:block; width:252px; height:38px;  background-image:url(../img/logo.png);}
+	.header .center-buttons{ position:absolute; left:50%; right:50%; top:0; margin-left:-150px; width:300px; height:59px;  }
+		.header .center-buttons a.rentcar{ float:left; display:block; width:150px; height:23px; padding:36px 0 0 0; background-color:rgba(255, 162, 0, 1); background-image:url(../img/rentcar.png); background-repeat: no-repeat; background-position:center 8px; color:#000; text-decoration:none; text-transform:uppercase; font-family: 'Fira Sans Extra Condensed', sans-serif; text-align:center; font-size:16px; line-height:16px; background-size:47px 23px;}
+		.header .center-buttons a.bookhotel{ float:left; display:block; width:150px; height:23px; padding:36px 0 0 0; background-color:rgba(0, 7, 9, 0.3); background-image:url(../img/bookhotel.png);  background-repeat: no-repeat; background-position:center 7px; color:#fff; text-decoration:none; text-transform:uppercase; font-family: 'Fira Sans Extra Condensed', sans-serif; text-align:center; font-size:16px; line-height:16px;   background-size:46px 21px;}
+	.header .right-buttons{ float:right; width:122px; height:59px; }
+		.header .right-buttons .share{float:left;}
+			.header .right-buttons .share a{  display:block; width:60px; height:59px; border-left: 1px solid #818c90; background-color:rgba(0, 0, 0, 0.2); background-size:22px 27px; background-image:url(../img/share.png); background-repeat:no-repeat; background-position:center 14px;} 
+		.header .right-buttons .login-button{ float:left; display:block; width:60px; height:26px; padding:33px 0 0 0; background-size:15px 18px; background-repeat:no-repeat; background-image:url(../img/login.png); background-position:center 12px; border-left: 1px solid #818c90; background-color:rgba(0, 0, 0, 0.2); font-size:13px; line-height:13px; text-transform:uppercase; color:#fff; text-align:center;  font-family: 'Fira Sans Condensed', sans-serif; text-decoration:none;}
+		
+		
+.central-block{ margin:163px 0 0 0;}
+.central-block .central-left{ float:left; width:50%; height:550px; background-color:rgba(64, 64, 64, 0.7); border-top-right-radius:5px;  border-bottom-right-radius:5px; border-top:1px solid rgba(255, 255, 255, 0.18);  border-right:1px solid rgba(70, 70, 70, 0.8); border-bottom:1px solid rgba(70, 70, 70, 0.8); 
+-moz-box-sizing: border-box; /* Для Firefox */
+ -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+ box-sizing: border-box; /* Для IE и Opera */}
+ 
+.central-left .left-container{ width:384px; float:right; margin:28px 41px 0 0;}
+	.central-left .left-container .lc-input{width:384px; height:46px; border-radius:2px; border: 1px solid rgba(255, 255, 255, 0.3); }
+		.central-left .left-container .lc-input input{ width:384px; height:46px; padding:10px; border-radius:2px; background-color:rgba(19, 28, 40, 0.2); border:1px solid #313431; box-shadow:inset 1px 1px 3px rgba(0, 0, 0, 0.3); font-size:22px; line-height:22px; color:#FFF; font-weight:500; font-family: 'Fira Sans Condensed', sans-serif;
+		-moz-box-sizing: border-box; /* Для Firefox */
+ -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+ box-sizing: border-box; /* Для IE и Opera */}
+ 	.central-left .left-container .data-input{ width:384px; height:42px; margin:14px 0 0 0; border-radius:42px; background-color: rgba(24, 167, 0, 10);}
+		.central-left .left-container .data-input div{ float:left;}
+			.central-left .left-container .data-input div select{display:block;  height:38px;   width:100%; padding:0 0 0 0; margin:1px 0 0 5px; text-align:left;  background-color:transparent; border:none; background-position: right 7px top 14px; background-repeat: no-repeat; background-image:url(../img/dropdown-arrow.png); background-size:9px 10px; line-height: 1em; color:#fff; font-size:18px;font-family: 'Fira Sans Extra Condensed', sans-serif;  -webkit-appearance: none; 
+  /* for FF */ -moz-appearance: none; text-indent: 0.01px; text-overflow: '';
+  /* for IE */-ms-appearance: none; appearance: none!important;}
+			.central-left .left-container .data-input div select option:checked { color:#fff; background-color:#18a700; border:none;  height:30px;  line-height:28px; border:none;}
+			.central-left .left-container .data-input div select ::-ms-expand {display: none;}
+			
+		.data-input .di-month{ width:100px;}
+			.data-input .di-month select{}
+  		.data-input .di-day{ width:41px; margin-left:7px;}
+		.data-input .di-time{}
+		.data-input .di-city{ float:right!important;}
+	
+	
+	
+	
+
+ 		
+ 
+ 
+ 
+ 
+
+.central-block .central-right{float:right; width:50%; height:550px; background-color:rgba(64, 64, 64, 0.7); border-top-left-radius:5px;  border-bottom-left-radius:5px;  border-top:1px solid rgba(255, 255, 255, 0.18);  border-left:1px solid rgba(255, 255, 255, 0.18); border-bottom:1px solid rgba(70, 70, 70, 0.8); 
+-moz-box-sizing: border-box; /* Для Firefox */
+ -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+ box-sizing: border-box; /* Для IE и Opera */}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.additional-block{ position:relative; width:100%; height:86px; background-color:rgba(64, 64, 64, 0.7); border-top:1px solid rgba(255, 255, 255, 0.18); border-bottom:1px solid rgba(255, 255, 255, 0.18);}
+.additional-block .add-container{position:absolute; left:50%; right:50%; margin-left:-425px; width:850px; border-left:1px solid rgba(70, 70, 70, 0.8); border-right:1px solid rgba(70, 70, 70, 0.8)}
+.additional-block .additional-center{ width:848px;  height:86px; border-radius:2px;  border-left:1px solid rgba(255, 255, 255, 0.18);  border-right:1px solid rgba(255, 255, 255, 0.18);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{ /**/ flex: 0 0 auto;  height:178px; width:100%; margin:100px 0 0 0; background-color:rgba(64, 64, 64, 0.8);}
+	.footer .footer-wrapper{ width:1200px; margin:0 auto;}
+		.footer .footer-wrapper .footer-upper-line{ margin:44px 0 0 0;}
+			.footer .footer-wrapper .footer-upper-line .footer-logo{ float:left; width:12%; height:76px; padding:0 0 0 0.5%; background-image:url(../img/logo-footer.png); background-repeat:no-repeat; background-size:126px 71px;}
+			.footer .footer-wrapper .footer-upper-line .footer-socials{ float:left; width:11.5%; padding:8px 0 0 1%;}
+				.footer .footer-wrapper .footer-upper-line .footer-socials ul{ display: block; width:64px; height:64px;}
+					.footer .footer-wrapper .footer-upper-line .footer-socials ul li{ float:left;}
+						.footer .footer-wrapper .footer-upper-line .footer-socials ul li a{ display: block; height:30px; width:30px; background-repeat:no-repeat; background-size:30px 30px;}
+						.footer .footer-wrapper .footer-upper-line .footer-socials ul li.footer-twitter a{ background-image:url(../img/footer-twitter.png);}
+						.footer .footer-wrapper .footer-upper-line .footer-socials ul li.footer-facebook a{ background-image:url(../img/footer_facebook.png); margin:0 0 0 4px;}
+						.footer .footer-wrapper .footer-upper-line .footer-socials ul li.footer-linkedin a{ background-image:url(../img/footer_linked-in.png); margin:4px 0 0 0;}
+						.footer .footer-wrapper .footer-upper-line .footer-socials ul li.footer-youtube a{ background-image:url(../img/footer-youtube.png); margin:4px 0 0 4px;}
+			.footer .footer-wrapper .footer-upper-line .footer-menu{ float:left; width:37.5%;}
+				.footer .footer-wrapper .footer-upper-line .footer-menu ul{ height:69px; width:100%; margin:11px 0 0 0;}
+					.footer .footer-wrapper .footer-upper-line .footer-menu ul li{ float:left; height:23px; width:31.33%; padding:0 0 0 2%;}
+						.footer .footer-wrapper .footer-upper-line .footer-menu ul li a{ font-size:14px; line-height:14px; color:#FFF; text-decoration:none; font-family: 'Fira Sans Extra Condensed', sans-serif;}
+			.footer .footer-wrapper .footer-upper-line .footer-op-logo{ float:left; width:12.5%; }
+				.footer .footer-wrapper .footer-upper-line .footer-op-logo a{ display:block; width:138px; height:71px; margin:2px 0 0 6px; background-size:138px 71px;}	
+				.footer .footer-wrapper .footer-upper-line .footer-op-logo a.thrifty-logo{  background-image:url(../img/thrifty-logo.png);}
+				.footer .footer-wrapper .footer-upper-line .footer-op-logo a.herz-logo{ background-image:url(../img/herz-logo.png);}
+				.footer .footer-wrapper .footer-upper-line .footer-op-logo a.dollar-logo{ background-image:url(../img/dollar-logo.png);}	
+		
+		
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 

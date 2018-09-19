@@ -1,0 +1,464 @@
+{
+	"id": "706aac93-aec9-53cb-7932-7b5ff04c3d59",
+	"name": "LegaLos",
+	"description": "",
+	"order": [
+		"582063e3-3f74-fb66-30fb-3b7385819309"
+	],
+	"folders": [
+		{
+			"name": "AUTH",
+			"description": "",
+			"collectionId": "706aac93-aec9-53cb-7932-7b5ff04c3d59",
+			"order": [
+				"b9142296-fc98-b0b5-8a35-b7c6e4c213fe",
+				"652cd5db-bb02-6fb6-7fc6-67d563649c20",
+				"666ec8ce-988d-00fa-8e0b-f0b4250de84a",
+				"b023dac9-fb98-bd55-0225-36c57b98ee1b",
+				"155eb033-f30a-249b-a947-9272565e8da0",
+				"b1d7286c-428f-33aa-a258-43871cc91201"
+			],
+			"owner": "612463",
+			"folders_order": [],
+			"id": "fce43d84-3607-a8ad-0078-147edfaca64d"
+		},
+		{
+			"name": "Account",
+			"description": "",
+			"collectionId": "706aac93-aec9-53cb-7932-7b5ff04c3d59",
+			"order": [
+				"ccedfb91-c2ef-044a-ebd4-8824500dffab",
+				"cb5b9145-1f97-93f2-eb77-03994dcc76b2",
+				"2cce1c3b-48ab-f428-1e74-fc66d16b6bd3"
+			],
+			"owner": "612463",
+			"folders_order": [],
+			"id": "81e02572-4c18-0a4b-e99c-72fc7629189b"
+		},
+		{
+			"name": "Subscriptions",
+			"description": "",
+			"collectionId": "706aac93-aec9-53cb-7932-7b5ff04c3d59",
+			"order": [
+				"81398fe0-7d47-3a55-eeb9-9fe20edcaeb8",
+				"eafd367a-1802-50b3-eb0c-8eeeb74a976c"
+			],
+			"owner": "612463",
+			"folders_order": [],
+			"id": "abe5fef3-354f-9020-ab87-f7ad8d39b06b"
+		}
+	],
+	"folders_order": [
+		"fce43d84-3607-a8ad-0078-147edfaca64d",
+		"abe5fef3-354f-9020-ab87-f7ad8d39b06b",
+		"81e02572-4c18-0a4b-e99c-72fc7629189b"
+	],
+	"timestamp": 1512906424618,
+	"owner": "612463",
+	"public": false,
+	"requests": [
+		{
+			"id": "155eb033-f30a-249b-a947-9272565e8da0",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://legalos.amconsoft.com/api/app/v1/password/email",
+			"folder": "fce43d84-3607-a8ad-0078-147edfaca64d",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1512984621826,
+			"name": "Get Token for Reset Passwor",
+			"description": "",
+			"collectionId": "706aac93-aec9-53cb-7932-7b5ff04c3d59",
+			"responses": [],
+			"rawModeData": "{\"email\":\"filonuse@gmail.com\"}"
+		},
+		{
+			"id": "2cce1c3b-48ab-f428-1e74-fc66d16b6bd3",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjcsImlzcyI6Imh0dHA6Ly9sZWdhbG9zLmFtY29uc29mdC5jb20vYXBpL2FwcC92MS9yZWdpc3RlciIsImlhdCI6MTUxNjA0NzM0MCwiZXhwIjoxNTE2MDUwOTQwLCJuYmYiOjE1MTYwNDczNDAsImp0aSI6InhoRFd1ajJQZFNiZ1piNnMifQ.36XM17I4PWfaDUm_mxPwqJGUqL5iiAde5lEQdIw9yjY\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjcsImlzcyI6Imh0dHA6Ly9sZWdhbG9zLmFtY29uc29mdC5jb20vYXBpL2FwcC92MS9yZWdpc3RlciIsImlhdCI6MTUxNjA0NzM0MCwiZXhwIjoxNTE2MDUwOTQwLCJuYmYiOjE1MTYwNDczNDAsImp0aSI6InhoRFd1ajJQZFNiZ1piNnMifQ.36XM17I4PWfaDUm_mxPwqJGUqL5iiAde5lEQdIw9yjY",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://legalos.amconsoft.com/api/app/v1/agreement",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1516047437253,
+			"name": "Update Agreement",
+			"description": "",
+			"collectionId": "706aac93-aec9-53cb-7932-7b5ff04c3d59",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "582063e3-3f74-fb66-30fb-3b7385819309",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMsImlzcyI6Imh0dHA6Ly9sZWdhbG9zcC9hcGkvYXBwL3YxL2xvZ2luIiwiaWF0IjoxNTEyOTMzOTc4LCJleHAiOjE1MTI5Mzc1NzgsIm5iZiI6MTUxMjkzMzk3OCwianRpIjoiRVJsYUFFcDVkNnhXeVJ3YiJ9.gXwkXln5_9V7_Ma0wkW5DEufLotDrEwg2D4T_MAIqb0\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMsImlzcyI6Imh0dHA6Ly9sZWdhbG9zcC9hcGkvYXBwL3YxL2xvZ2luIiwiaWF0IjoxNTEyOTMzOTc4LCJleHAiOjE1MTI5Mzc1NzgsIm5iZiI6MTUxMjkzMzk3OCwianRpIjoiRVJsYUFFcDVkNnhXeVJ3YiJ9.gXwkXln5_9V7_Ma0wkW5DEufLotDrEwg2D4T_MAIqb0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://legalos.amconsoft.com/api/app/v1/citations",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1512984636525,
+			"name": "Get Citations",
+			"description": "",
+			"collectionId": "706aac93-aec9-53cb-7932-7b5ff04c3d59",
+			"responses": []
+		},
+		{
+			"id": "652cd5db-bb02-6fb6-7fc6-67d563649c20",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjYsImlzcyI6Imh0dHA6Ly9sZWdhbG9zcC9hcGkvYXBwL3YxL3JlZ2lzdGVyIiwiaWF0IjoxNTEyOTMyNzI5LCJleHAiOjE1MTI5MzYzMjksIm5iZiI6MTUxMjkzMjcyOSwianRpIjoiZzNCWXllcWU0V2ppeVFCMCJ9.8JU_UUabeFIxZ2q-r5_N3gK3aYIxL_rNASuBA7cFCRI\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjYsImlzcyI6Imh0dHA6Ly9sZWdhbG9zcC9hcGkvYXBwL3YxL3JlZ2lzdGVyIiwiaWF0IjoxNTEyOTMyNzI5LCJleHAiOjE1MTI5MzYzMjksIm5iZiI6MTUxMjkzMjcyOSwianRpIjoiZzNCWXllcWU0V2ppeVFCMCJ9.8JU_UUabeFIxZ2q-r5_N3gK3aYIxL_rNASuBA7cFCRI",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://legalos.amconsoft.com/api/app/v1/logout",
+			"folder": "fce43d84-3607-a8ad-0078-147edfaca64d",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1512984632095,
+			"name": "Logout",
+			"description": "",
+			"collectionId": "706aac93-aec9-53cb-7932-7b5ff04c3d59",
+			"responses": []
+		},
+		{
+			"id": "666ec8ce-988d-00fa-8e0b-f0b4250de84a",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://legalos.amconsoft.com/api/app/v1/register",
+			"folder": "fce43d84-3607-a8ad-0078-147edfaca64d",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1516047410358,
+			"name": "Register",
+			"description": "",
+			"collectionId": "706aac93-aec9-53cb-7932-7b5ff04c3d59",
+			"responses": [],
+			"rawModeData": "{\"email\":\"filonuse1@gmail.com\",\"password\":\"123456\",\"password_confirmation\":\"123456\",\"agreement_flag\":\"1\"}"
+		},
+		{
+			"id": "81398fe0-7d47-3a55-eeb9-9fe20edcaeb8",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMsImlzcyI6Imh0dHA6Ly9sZWdhbG9zLmFtY29uc29mdC5jb20vYXBpL2FwcC92MS9sb2dpbiIsImlhdCI6MTUxNjA0MjY0MiwiZXhwIjoxNTE2MDQ2MjQyLCJuYmYiOjE1MTYwNDI2NDIsImp0aSI6IlpzaGdhN0JRb2xiNWk1UXcifQ.5CZEZ_S687J-Z6PQS_o_188_bTfh3pn1RUW8lLuWQ98\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMsImlzcyI6Imh0dHA6Ly9sZWdhbG9zLmFtY29uc29mdC5jb20vYXBpL2FwcC92MS9sb2dpbiIsImlhdCI6MTUxNjA0MjY0MiwiZXhwIjoxNTE2MDQ2MjQyLCJuYmYiOjE1MTYwNDI2NDIsImp0aSI6IlpzaGdhN0JRb2xiNWk1UXcifQ.5CZEZ_S687J-Z6PQS_o_188_bTfh3pn1RUW8lLuWQ98",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://legalos.amconsoft.com/api/app/v1/subscriptions",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1516042724958,
+			"name": "Get Subscriptions",
+			"description": "",
+			"collectionId": "706aac93-aec9-53cb-7932-7b5ff04c3d59",
+			"responses": []
+		},
+		{
+			"id": "b023dac9-fb98-bd55-0225-36c57b98ee1b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://legalos.amconsoft.com/api/app/v1/login_social",
+			"folder": "fce43d84-3607-a8ad-0078-147edfaca64d",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1512984627165,
+			"name": "Register Social",
+			"description": "",
+			"collectionId": "706aac93-aec9-53cb-7932-7b5ff04c3d59",
+			"responses": [],
+			"rawModeData": "{\"email\":\"filonuse@gmail.com\",\"social_id\":\"1234563\",\"social_type\":\"2\",\"agreement_flag\":\"1\"}"
+		},
+		{
+			"id": "b1d7286c-428f-33aa-a258-43871cc91201",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://legalos.amconsoft.com/api/app/v1/password/reset",
+			"folder": "fce43d84-3607-a8ad-0078-147edfaca64d",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1512984619758,
+			"name": "Reset Password",
+			"description": "",
+			"collectionId": "706aac93-aec9-53cb-7932-7b5ff04c3d59",
+			"responses": [],
+			"rawModeData": "{\"email\":\"filonuse@gmail.com\",\"password\":\"123457\",\"password_confirmation\":\"123457\",\"token\":\"4c7f1f1b9528e45f86455f9edc163bb3113fe3a83a5587822d3354084269495a\"}"
+		},
+		{
+			"id": "b9142296-fc98-b0b5-8a35-b7c6e4c213fe",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://legalos.amconsoft.com/api/app/v1/login",
+			"folder": "fce43d84-3607-a8ad-0078-147edfaca64d",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1512984634365,
+			"name": "Auth",
+			"description": "",
+			"collectionId": "706aac93-aec9-53cb-7932-7b5ff04c3d59",
+			"responses": [],
+			"rawModeData": "{\"email\":\"usercompany1@flip.taxi\",\"password\":\"usercompany1\",\"device_type\":\"\",\"gcm_token\":\"\"}"
+		},
+		{
+			"id": "cb5b9145-1f97-93f2-eb77-03994dcc76b2",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjcsImlzcyI6Imh0dHA6Ly9sZWdhbG9zLmFtY29uc29mdC5jb20vYXBpL2FwcC92MS9yZWdpc3RlciIsImlhdCI6MTUxNjA0NzM0MCwiZXhwIjoxNTE2MDUwOTQwLCJuYmYiOjE1MTYwNDczNDAsImp0aSI6InhoRFd1ajJQZFNiZ1piNnMifQ.36XM17I4PWfaDUm_mxPwqJGUqL5iiAde5lEQdIw9yjY\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjcsImlzcyI6Imh0dHA6Ly9sZWdhbG9zLmFtY29uc29mdC5jb20vYXBpL2FwcC92MS9yZWdpc3RlciIsImlhdCI6MTUxNjA0NzM0MCwiZXhwIjoxNTE2MDUwOTQwLCJuYmYiOjE1MTYwNDczNDAsImp0aSI6InhoRFd1ajJQZFNiZ1piNnMifQ.36XM17I4PWfaDUm_mxPwqJGUqL5iiAde5lEQdIw9yjY",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://legalos.amconsoft.com/api/app/v1/account",
+			"folder": "81e02572-4c18-0a4b-e99c-72fc7629189b",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1516047406862,
+			"name": "Update Account",
+			"description": "",
+			"collectionId": "706aac93-aec9-53cb-7932-7b5ff04c3d59",
+			"responses": [],
+			"rawModeData": "{\"email\":\"filonuse2@gmail.com\",\"password\":\"123456\",\"password_confirmation\":\"123456\"}"
+		},
+		{
+			"id": "ccedfb91-c2ef-044a-ebd4-8824500dffab",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjcsImlzcyI6Imh0dHA6Ly9sZWdhbG9zLmFtY29uc29mdC5jb20vYXBpL2FwcC92MS9yZWdpc3RlciIsImlhdCI6MTUxNjA0NzM0MCwiZXhwIjoxNTE2MDUwOTQwLCJuYmYiOjE1MTYwNDczNDAsImp0aSI6InhoRFd1ajJQZFNiZ1piNnMifQ.36XM17I4PWfaDUm_mxPwqJGUqL5iiAde5lEQdIw9yjY\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjcsImlzcyI6Imh0dHA6Ly9sZWdhbG9zLmFtY29uc29mdC5jb20vYXBpL2FwcC92MS9yZWdpc3RlciIsImlhdCI6MTUxNjA0NzM0MCwiZXhwIjoxNTE2MDUwOTQwLCJuYmYiOjE1MTYwNDczNDAsImp0aSI6InhoRFd1ajJQZFNiZ1piNnMifQ.36XM17I4PWfaDUm_mxPwqJGUqL5iiAde5lEQdIw9yjY",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://legalos.amconsoft.com/api/app/v1/session",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1516047364614,
+			"name": "Get Session",
+			"description": "",
+			"collectionId": "706aac93-aec9-53cb-7932-7b5ff04c3d59",
+			"responses": []
+		},
+		{
+			"id": "eafd367a-1802-50b3-eb0c-8eeeb74a976c",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMsImlzcyI6Imh0dHA6Ly9sZWdhbG9zLmFtY29uc29mdC5jb20vYXBpL2FwcC92MS9sb2dpbiIsImlhdCI6MTUxNjA0MjY0MiwiZXhwIjoxNTE2MDQ2MjQyLCJuYmYiOjE1MTYwNDI2NDIsImp0aSI6IlpzaGdhN0JRb2xiNWk1UXcifQ.5CZEZ_S687J-Z6PQS_o_188_bTfh3pn1RUW8lLuWQ98\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMsImlzcyI6Imh0dHA6Ly9sZWdhbG9zLmFtY29uc29mdC5jb20vYXBpL2FwcC92MS9sb2dpbiIsImlhdCI6MTUxNjA0MjY0MiwiZXhwIjoxNTE2MDQ2MjQyLCJuYmYiOjE1MTYwNDI2NDIsImp0aSI6IlpzaGdhN0JRb2xiNWk1UXcifQ.5CZEZ_S687J-Z6PQS_o_188_bTfh3pn1RUW8lLuWQ98",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://legalos.amconsoft.com/api/app/v1/usersubscriptions",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1516042722711,
+			"name": "Get User Subscriptions",
+			"description": "",
+			"collectionId": "706aac93-aec9-53cb-7932-7b5ff04c3d59",
+			"responses": []
+		}
+	]
+}

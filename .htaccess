@@ -1,0 +1,8 @@
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Headers "Origin, api_key, Authorization, X-Requested-With, Content-Type, Accept"
+</IfModule>
+<IfModule mod_rewrite.c>
+   RewriteEngine On 
+   RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>

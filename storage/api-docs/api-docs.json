@@ -1,0 +1,19 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "FLIP APP API",
+        "description": "API for web application",
+        "contact": {
+            "email": "filonuse@gmail.com"
+        },
+        "version": "1.0.0"
+    },
+    "host": "taxiflip",
+    "basePath": "/api/app/v1/",
+    "schemes": [
+        "http",
+        "https"
+    ],
+    "paths": {},
+    "definitions": {}
+}
